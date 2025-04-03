@@ -1,0 +1,3135 @@
+html,body {
+    cursor: url('../image/cursor.png'), auto;!important;
+}
+
+
+
+#section01{
+    height: 8000px; /*높이값만큼 고정됩니다.*/
+}
+
+#section01 .trigger_this_01{ /*고정용 부모*/
+    height: 100%;
+}
+
+#section01 .fix_this_1{ /*보여지는 화면*/
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+
+/* 하트 안쪽 배경 이미지 */
+#section01 .sec01_bg01{
+    /* margin: 0 auto; */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section01 .sec01_bg02{
+    /* margin: 0 auto; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -2880px;
+    margin-top: -1470px;
+    transform: scale(0.4);
+}
+
+/* 메인 가운데 텍스트 */
+#section01 .sec01_text01{
+    position: absolute;
+    left: 50%;
+    bottom: 78px;
+    margin-left: -465px;
+}
+
+/* 메인 상단 왼쪽 텍스트 */
+#section01 .sec01_text02{
+    position: absolute;
+    left: 35px;
+    top: 41px;
+}
+
+/* 메인 상단 가운데 텍스트 */
+#section01 .sec01_text03{
+    position: absolute;
+    left: 50%;
+    top: 41px;
+    margin-left: -27px;
+}
+
+/* 메인 상단 오른쪽 텍스트 */
+#section01 .sec01_text04{
+    position: absolute;
+    right: 58px;
+    top: 41px;
+}
+
+/* 타이틀 오른쪽 서브 텍스트 */
+#section01 .sec01_text05{
+    position: absolute;
+    left: 50%;
+    bottom: 208px;
+    margin-left: 251px;
+}
+
+/* 타이틀 첫번째 줄, 첫번째 V */
+#section01 .sec01_title01{
+    position: absolute;
+    top: 147px;
+    left: 50%;
+    margin-left: -87.5px;
+}
+
+/* 타이틀 첫번째 줄, 두번째 V */
+#section01 .sec01_title02{
+    position: absolute;
+    top: 147px;
+    left: 50%;
+    margin-left: -29.5px;
+}
+
+/* 타이틀 첫번째 줄, 세번째 V */
+#section01 .sec01_title03{
+    position: absolute;
+    top: 147px;
+    left: 50%;
+    margin-left: 29.5px;
+}
+
+/* 타이틀 두번째 줄, 알파벳 Y */
+#section01 .sec01_title04{
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    margin-left: -187px;
+}
+
+/* 타이틀 두번째 줄, 알파벳 O */
+#section01 .sec01_title05{
+    position: absolute;
+    top: 274px;
+    left: 50%;
+    margin-left: -125px;
+}
+
+/* 타이틀 두번째 줄, 알파벳 U */
+#section01 .sec01_title06{
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    margin-left: -64px;
+}
+
+/* 타이틀 두번째 줄, 알파벳 A */
+#section01 .sec01_title07{
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    margin-left: 15px;
+}
+
+/* 타이틀 두번째 줄, 알파벳 R */
+#section01 .sec01_title08{
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    margin-left: 80px;
+}
+
+/* 타이틀 두번째 줄, 알파벳 E */
+#section01 .sec01_title09{
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    margin-left: 141px;
+}
+
+/* 타이틀 세번째 줄, 알파벳 A */
+#section01 .sec01_title10{
+    position: absolute;
+    bottom: 145px;
+    left: 50%;
+    margin-left: -233px;
+}
+
+/* 타이틀 세번째 줄, 알파벳 D */
+#section01 .sec01_title11{
+    position: absolute;
+    bottom: 145px;
+    left: 50%;
+    margin-left: -168px;
+}
+
+/* 타이틀 세번째 줄, 알파벳 O */
+#section01 .sec01_title12{
+    position: absolute;
+    bottom: 144px;
+    left: 50%;
+    margin-left: -108px;
+}
+
+/* 타이틀 세번째 줄, 알파벳 R */
+#section01 .sec01_title13{
+    position: absolute;
+    bottom: 145px;
+    left: 50%;
+    margin-left: -46px;
+}
+
+/* 타이틀 세번째 줄, 알파벳 A */
+#section01 .sec01_title14{
+    position: absolute;
+    bottom: 145px;
+    left: 50%;
+    margin-left: 9px;
+}
+
+/* 타이틀 세번째 줄, 알파벳 B */
+#section01 .sec01_title15{
+    position: absolute;
+    bottom: 145px;
+    left: 50%;
+    margin-left: 73px;
+}
+
+/* 타이틀 세번째 줄, 알파벳 L */
+#section01 .sec01_title16{
+    position: absolute;
+    bottom: 145px;
+    left: 50%;
+    margin-left: 134px;
+}
+
+/* 타이틀 세번째 줄, 알파벳 E */
+#section01 .sec01_title17{
+    position: absolute;
+    bottom: 145px;
+    left: 50%;
+    margin-left: 187px;
+}
+
+/* 왼쪽 바깥에서 굴러들어오는 */
+/* 하트큐빅반지 */
+#section01 .sec01_object01{
+    position: absolute;
+    bottom: 273px;
+    left: -419px;
+}
+
+/* 왼쪽 바깥에서 들어오는 Pink on Pink 타이틀 */
+#section01 .sec01_pinktitle{
+    position: absolute;
+    left: -663px;
+    bottom: -218px;
+}
+
+/* 오른쪽 바깥에서 굴러들어오는 */
+/* 화이트리본핀 */
+#section01 .sec01_object02{
+    position: absolute;
+    top: 259px;
+    right: -285px;
+}
+
+#section01 .se01_dim{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999999;
+    background: #000;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+#section02{
+    height: 36000px;
+}
+
+#section02 .trigger_this_02{
+    height: 100%;
+}
+
+#section02 .fix_this_2{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#section02 .se02_y_scroll{
+    width: 100vw;
+    height: 3648px;
+    position: relative;
+    background: black;
+}
+/* 타이틀 왼쪽 텍스트, YOU ARE */
+#section02 .sec02_text01{
+    position: absolute;
+    top: 70px;
+    left: 12px;
+    transform: translateX(-1000px);
+}
+
+/* 타이틀 오른쪽 텍스트, BYXXX ADORABLE */
+#section02 .sec02_text02{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    transform: translateX(1000px);
+}
+
+/* 메인 인물, 뒷모습 */
+#section02 .sec02_object01{
+    position: absolute;
+    left: 50%;
+    top: 323px;
+    margin-left: -116.5px;
+    opacity: 0;
+    z-index: 10;
+}
+
+/* 오른쪽 위, 핑크 벨벳 리본 */
+#section02 .sec02_object04{
+    position: absolute;
+    top: 349px;
+    right: 208px;
+    transform: translateX(1000px);
+}
+
+/* Pink on Pink 그라데이션 배경 */
+#section02 .sec02_bg01{
+    position: absolute;
+    top: 1292px;
+    left: 50%;
+    margin-left: -960px;
+}
+
+/* 첫번째 왼쪽창, 버튼 포함 범위 */
+#section02 .container01{
+    position: absolute; 
+    top: 500px;
+    left: 112px;
+    opacity: 0;
+}
+
+/* 샵버튼 범위 */
+#section02 .container01 .sec02_b_container01{
+    position: absolute;
+    top: 364px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section02 .container01 .sec02_b_container01 .sec02_button01{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section02 .container01 .sec02_b_container01 .sec02_button01_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section02 .container01 .sec02_b_container01:hover .sec02_button01_hover{
+    opacity: 1;
+}
+
+
+
+
+/* 두번째 오른쪽창, 버튼 포함 범위 */
+#section02 .container02{
+    position: absolute; 
+    top: 970px;
+    right: 156px;
+    opacity: 0;
+}
+
+/* 샵버튼 범위 */
+#section02 .container02 .sec02_b_container02{
+    position: absolute;
+    top: 364px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section02 .container02 .sec02_b_container02 .sec02_button02{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section02 .container02 .sec02_b_container02 .sec02_button02_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section02 .container02 .sec02_b_container02:hover .sec02_button02_hover{
+    opacity: 1;
+}
+
+/* 왼쪽에서 들어와서 둥둥 떠다니는 핑크 스크런치 */
+#section02 .sec02_object05{
+    position: absolute;
+    top: 1658px;
+    left: 362px;
+}
+
+/* 왼쪽에서 들어와서 둥둥 떠다니는 리본 실버 반지 */
+#section02 .sec02_object06{
+    position: absolute;
+    top: 2034px;
+    left: 209px;
+}
+
+/* 왼쪽에서 들어와서 둥둥 떠다니는 발레슈즈 키링 */
+#section02 .sec02_object07{
+    position: absolute;
+    top: 2154px;
+    left: 399px;
+}
+
+/* 오른쪽에서 들어와서 둥둥 떠다니는 화이트 리본 */
+#section02 .sec02_object08{
+    position: absolute;
+    top: 1636px;
+    right: 500px;
+}
+
+/* 오른쪽에서 들어와서 둥둥 떠다니는 실버 핑크 리본 반지 */
+#section02 .sec02_object09{
+    position: absolute;
+    top: 1866px;
+    right: 244px;
+}
+
+/* 오늘쪽에서 들어와서 둥둥 떠다니는 실버백 */
+#section02 .sec02_object10{
+    position: absolute;
+    right: 500px;
+    bottom: 1257px;
+}
+
+/* 오른쪽에서 들어와서 둥둥 떠다디는 실버 하트 귀걸이 */
+#section02 .sec02_object11{
+    position: absolute;
+    right: 218px;
+    bottom: 1183px;
+}
+
+/* -----sec02_가로 시작------ */
+
+#section02 .se02_x_box{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(100vw);
+}
+
+#section02 .se02_x_text{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(100vw);
+}
+
+#section02 .se02_move_left{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+#section02 .se02_x_page{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(100vw);
+    z-index: 100;
+}
+
+/* (가로시작)맨아래 핑크 그라데이션 사각형 */
+#section02 .sec02_box01{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* (가로시작) HOW TO LOOK 흰색 배경 텍스트 */
+#section02 .sec02_text03{
+    position: absolute;
+    left: 34px;
+    bottom: 718px;
+    z-index: -1;
+}
+
+/* (가로시작) ADORABLE 흰색 배경 텍스트 */
+#section02 .sec02_text04{
+    position: absolute;
+    left: 2057px;
+    bottom: 286px;
+    z-index: -1;
+}
+
+/* (가로시작) 옷 벗겨진 메인인물 */
+#section02 .sec02_object12{
+    position: absolute;
+    left: 743px;
+    bottom: 58px;
+    opacity: 0;
+}
+
+/* (가로시작) 벗겨지는 원래 잆고 있던 옷 */
+#section02 .sec02_object13{
+    position: absolute;
+    left: 220px;
+    bottom: 52px;
+}
+
+/* (가로시작) 새로운 옷1 - 베이지니트가디건 */
+#section02 .sec02_object14{
+    position: absolute;
+    left: 734px;
+    bottom: 56px;
+}
+
+/* (가로시작) 새로운 옷2 - 네이비원피스 */
+#section02 .sec02_object15{
+    position: absolute;
+    left: 1250px;
+    bottom: 49px;
+}
+
+/* (가로시작) 새로운 옷3 - 연핑크상의 */
+#section02 .sec02_object16{
+    position: absolute;
+    left: 1756px;
+    bottom: 53px;
+}
+
+/* (가로시작) 새로운 옷4 - 화이트상의 */
+#section02 .sec02_object17{
+    position: absolute;
+    left: 2269px;
+    bottom: 57px;
+}
+
+/* (가로마지막) VVV 로고 - 핑크 */
+#section02 .sec02_logo01{
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    margin-left: -1559px;
+    opacity: 0;
+    transform: scale(0.2);
+}
+
+/* (가로마지막) VVV 로고 - 화이트 */
+#section02 .sec02_logo02{
+    position: absolute;
+    left: 50%;
+    bottom: 476px;
+    margin-left: -283.5px;
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+/* (가로마지막) 화이트 딤 */
+#section02 .se02_dim{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 9999999;
+    background: #ffffff;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+#section03{
+    height: 35000px;
+}
+#section03 .trigger_this_03{
+    height: 100%;
+}
+#section03 .fix_this_3{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: white;
+}
+#section03 .fix_this_3 .se03_yScroll{
+    width: 100vw;
+    height: 5518px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+/*1920+7862*/
+#section03 .fix_this_3 .se03_yScroll .se03_xScroll{
+    width: 9782px;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: pink;
+}
+
+/* 밑에서 올라오는 벽+잔디 배경 */
+#section03 .sec03_bg02{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+/* 맨 위 핑크 텍스트 */
+#section03 .sec03_text01{
+    position: absolute;
+    top: 23px;
+    left: 0px;
+}
+
+/* 왼쪽에서 들어오는 창문 */
+#section03 .sec03_object01{
+    position: absolute;
+    top: 429px;
+    left: 379px;
+    transform: translateX(-1000px);
+}
+
+/* 왼쪽에서 들어오는 자동차 */
+#section03 .sec03_object02{
+    position: absolute;
+    top: 835px;
+    left: 72px;
+    transform: translateX(-1000px);
+}
+
+/* 오른쪽에서 들어오는 문과 등 */
+#section03 .sec03_object03{
+    position: absolute;
+    top: 345px;
+    right: 229px;
+    transform: translateX(1000px);
+}
+
+/* 핑크배경 첫번째 텍스트, 첫째줄 */
+#section03 .sec03_text02{
+    position: absolute;
+    top: 1408px;
+    left: 0px;
+    transform: translateX(-1000px);
+}
+
+/* 핑크배경 첫번째 텍스트, 둘째줄 */
+#section03 .sec03_text03{
+    position: absolute;
+    top: 1561px;
+    left: 0px;
+    /* transform: translateX(1000px); */
+}
+
+/* 핑크배경 첫번째 텍스트, 셋째줄 */
+#section03 .sec03_text04{
+    position: absolute;
+    top: 1729px;
+    left: -455px;
+    transform: translateX(-1000px);
+}
+
+/* 핑크배경 첫번째 사람 */
+#section03 .sec03_object06{
+    position: absolute;
+    left: 131px;
+    top: 1988px;
+    transform: translateX(-1000px);
+}
+
+/* 핑크배경 첫번째 말풍선 */
+#section03 .sec03_object07{
+    position: absolute;
+    top: 2019px;
+    left: 518px;
+    opacity: 0;
+}
+
+/* 핑크배경 첫번째 23FW */
+#section03 .sec03_text05{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#section03 .sec03_text_box{
+    position: absolute;
+    top: 2764px;
+    left: 614px;
+    overflow: hidden;
+    width: 350px;
+    height: 140px;
+}
+#section03 .sec03_text_box .sec03_text_inner{
+    width: 350px;
+    height: 600px;
+    position: relative;
+}
+
+/* 핑크배경 23SS */
+#section03 .sec03_text19{
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+/* 핑크배경 22FW */
+#section03 .sec03_text20{
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+
+/* 핑크배경 첫번째 사람 밑 Ta-da */
+#section03 .sec03_object08{
+    position: absolute;
+    top: 2782px;
+    left: 168px;
+}
+
+/* 잔디배경 메인 사람(곰돌이 안고 있는) */
+#section03 .sec03_object09{
+    position: absolute;
+    top: 783px;
+    right: 112px;
+    transform: translateX(1000px);
+}
+
+/* 잔디배경 메인 말풍선 */
+#section03 .sec03_object10{
+    position: absolute;
+    top: 729px;
+    right: 561px;
+    opacity: 0;
+}
+
+/* 핑크배경 첫번째-맨밑 잡지(2023FW) */
+#section03 .sec03_book01{
+    position: absolute;
+    top: 2122px;
+    right: 98px;
+    transform: translateX(1000px);
+}
+
+/* 핑크배경 첫번째-가운데 잡지(2023SS) */
+#section03 .sec03_book02{
+    position: absolute;
+    top: 2201px;
+    right: 138px;
+    transform: translateX(1000px);
+}
+
+/* 핑크배경 첫번째-맨위 잡지(2022FW) */
+#section03 .sec03_book03{
+    position: absolute;
+    top: 2146px;
+    right: 108px;
+    transform: translateX(1000px);
+}
+
+/* 핑크배경 첫번재-위 텍스트 */
+#section03 .sec03_text06{
+    position: absolute;
+    top: 2103px;
+    right: 546px;
+    opacity: 0;
+}
+
+/* 핑크배경 첫번째_아래 텍스트 */
+#section03 .sec03_text07{
+    position: absolute;
+    top: 2798px;
+    right: 364px;
+    opacity: 0;
+}
+
+/* 핑크배경 첫번째 검정 가방 */
+#section03 .sec03_object11{
+    position: absolute;
+    top: 2758px;
+    right: 39px;
+    transform: translateX(1000px);
+}
+
+/* 핑크배경 첫번째 검정 리본 */
+#section03 .sec03_object12{
+    position: absolute;
+    top: 3038px;
+    right: 265px;
+    transform: translateX(1000px);
+    transform: translateY(500px);
+}
+
+/* 핑크배경 두번째 사람 */
+#section03 .sec03_object13{
+    position: absolute;
+    bottom: 1142px;
+    right: 217px;
+    transform: translateX(1000px);
+}
+
+/* 핑크배경 두번째 사람 위 Ta-da */
+#section03 .sec03_object14{
+    position: absolute;
+    bottom: 1956px;
+    right: 221px;
+    opacity: 0;
+}
+
+#section03 .sec03_text_box02{
+    position: absolute;
+    bottom: 1177px;
+    left: 967px;
+    overflow: hidden;
+    width: 350px;
+    height: 140px;
+}
+#section03 .sec03_text_box02 .sec03_text_inner02{
+    width: 350px;
+    height: 600px;
+    position: relative;
+}
+
+/* 핑크배경 두번째 텍스트 22SS */
+#section03 .sec03_text08{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 핑크배경 두번째 텍스트 21FW */
+#section03 .sec03_text21{
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+/* 핑크배경 두번째 텍스트 21SS */
+#section03 .sec03_text22{
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+
+/* 핑크배경 두번째-맨아래 잡지 */
+#section03 .sec03_book04{
+    position: absolute;
+    bottom: 1316px;
+    left: 273px;
+    transform: translateX(-1000px);
+}
+
+/* 핑크배경 두번째-오른쪽 잡지 */
+#section03 .sec03_book05{
+    position: absolute;
+    bottom: 1334px;
+    left: 609px;
+    transform: translateX(-1500px);
+}
+
+/* 핑크배경 두번째-왼쪽 잡지 */
+#section03 .sec03_book06{
+    position: absolute;
+    left: 140px;
+    bottom: 1138px;
+    transform: translateX(-1000px);
+}
+
+/* 핑크배경 두번째-위쪽 텍스트 */
+#section03 .sec03_text09{
+    position: absolute;
+    left: 292px;
+    bottom: 1760px;
+    opacity: 0;
+}
+
+/* 핑크배경 두번째_아래쪽 텍스트 */
+#section03 .sec03_text10{
+    position: absolute;
+    left: 544px;
+    bottom: 1132px;
+    opacity: 0;
+}
+
+/* 핑크배경 두번째 하늘색 헤어스크런치 */
+#section03 .sec03_object15{
+    position: absolute;
+    left: 885px;
+    bottom: 1803px;
+    transform: translateX(-2000px);
+}
+
+/* 핑크배경 두번째 실버패딩백 */
+#section03 .sec03_object16{
+    position: absolute;
+    left: 147px;
+    bottom: 1109px;
+    transform: translateX(-1000px);
+}
+
+/* ------- sec03 가로 시작 ------- */
+/* 핑크배경 맨아래 크롭(가로시작) */
+#section03 .se03_xScroll .sec03_bg03{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+/* 핑크배경 맨아래 텍스트 */
+#section03 .se03_xScroll .sec03_text11{
+    position: absolute;
+    bottom: 0px;
+    left: -397px;
+}
+#section03 .se03_xScroll .sec03_text11 .inner{
+    display: flex;
+}
+
+/* 핑크배경 맨아래 맨왼쪽 사람  */
+#section03 .se03_xScroll .sec03_object17{
+    position: absolute;
+    left: 26px;
+    bottom: 0px;
+    transform: translateY(1000px);
+}
+
+/* 핑크배경 맨아래 오른쪽 사람 */
+#section03 .se03_xScroll .sec03_object18{
+    position: absolute;
+    left: 1501px;
+    bottom: 55px;
+    transform: translateY(-1000px);
+    opacity: 0;
+}
+
+/* 핑크배경 맨아래 가운데 메인 사람 */
+#section03 .se03_xScroll .sec03_object19{
+    position: absolute;
+    left: 760px;
+    bottom: -21px;
+}
+
+/* 핑크배경 맨아래 메인 꾸밈요소-1(왼쪽) */
+#section03 .se03_xScroll .sec03_object20{
+    position: absolute;
+    left: 724px;
+    bottom: 523px;
+    opacity: 0;
+}
+
+/* 핑크배경 맨아래 메인 꾸밈요소-2(오른쪽) */
+#section03 .se03_xScroll .sec03_object21{
+    position: absolute;
+    left: 1163px;
+    bottom: 611px;
+    opacity: 0;
+}
+
+/* ------- sec03 가로 시작 ------- */
+/* 핑크배경 (가로시작) 백그라운드 사각형 */
+#section03 .se03_xScroll .sec03_bg04{
+    position: absolute;
+    left: 1920px;
+    bottom: 0px;
+}
+
+/* 핑크배경(가로시작) 맨왼쪽 메인 인물 */
+#section03 .se03_xScroll .sec03_object22{
+    position: absolute;
+    left: 2045px;
+    bottom: 0px;
+}
+
+/* 핑크배경(가로시작) 메인 타이틀 Pink Princess */
+#section03 .se03_xScroll .sec03_text12{
+    position: absolute;
+    left: 2589px;
+    bottom: 388px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 메인 타이틀 밑 서브 텍스트 */
+#section03 .se03_xScroll .sec03_text13{
+    position: absolute;
+    left: 2838px;
+    bottom: 347px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 메인 타이틀 위 반짝이1 */
+#section03 .se03_xScroll .sec03_sparkle02{
+    position: absolute;
+    left: 2589px;
+    top: 234px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 메인 타이틀 위 반짝이2 */
+#section03 .se03_xScroll .sec03_sparkle03{
+    position: absolute;
+    left: 3261px;
+    top: 409px;    
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 첫번째 원형텍스트 중심 스파클 */
+#section03 .se03_xScroll .sec03_sparkle01{
+    position: absolute;
+    left: 4213px;
+    top: 58px;
+}
+
+/* 핑크배경(가로시작) 첫번째 원형 텍스트 */
+#section03 .se03_xScroll .sec03_text14{
+    position: absolute;
+    left: 4089px;
+    bottom: 736px;
+}
+
+/* 핑크배경(가로시작) 인터넷창1 */
+#section03 .se03_xScroll .sec03_window01{
+    position: absolute;
+    left: 3646px;
+    top: 142px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 메인인물2 */
+#section03 .se03_xScroll .sec03_object23{
+    position: absolute;
+    left: 3321px;
+    bottom: 0px;
+}
+
+/* 핑크배경(가로시작) 아이폰창1 */
+#section03 .se03_xScroll .sec03_window02{
+    position: absolute;
+    left: 4156px;
+    bottom: 91px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 인터넷창2 뒤 폴더창 */
+#section03 .se03_xScroll .sec03_window03{
+    position: absolute;
+    left: 4822px;
+    top: 121px;
+}
+
+/* 핑크배경(가로시작) 인터넷창2 */
+#section03 .se03_xScroll .sec03_window04{
+    position: absolute;
+    left: 4749px;
+    bottom: 100px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 누워있는 메인인물3 */
+#section03 .se03_xScroll .sec03_object24{
+    position: absolute;
+    left: 5468px;
+    top: 0px;
+}
+
+/* 핑크배경(가로시작) 누워있는 메인인물3 - 말풍선1 */
+#section03 .se03_xScroll .sec03_message01{
+    position: absolute;
+    top: 169px;
+    left: 5700px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 누워있는 메인인물3 - 말풍선2 */
+#section03 .se03_xScroll .sec03_message02{
+    position: absolute;
+    top: 224px;
+    left: 5532px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 누워있는 메인인물3 - 말풍선3 */
+#section03 .se03_xScroll .sec03_message03{
+    position: absolute;
+    left: 5608px;
+    top: 279px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 두번째 원형텍스트 */
+#section03 .se03_xScroll .sec03_text15{
+    position: absolute;
+    top: 750px;
+    left: 6488px;
+}
+
+/* 핑크배경(가로시작) 두번째 원형텍스트 중심 스파클 */
+#section03 .se03_xScroll .sec03_object25{
+    position: absolute;
+    bottom: 4px;
+    left: 6654px;
+}
+
+/* 핑크배경(가로시작) 첫번째 사각 사진 */
+#section03 .se03_xScroll .sec03_photo01{
+    position: absolute;
+    left: 6738px;
+    bottom: 73px;
+}
+
+/* 핑크배경(가로시작) 서있는 메인 인물 */
+#section03 .se03_xScroll .sec03_object26{
+    position: absolute;
+    right: 2482px;
+    top: 119px;
+}
+
+/* 핑크배경(가로시작) 서있는 메인 인물 - 말풍선1 */
+#section03 .se03_xScroll .sec03_message04{
+    position: absolute;
+    right: 2220px;
+    top: 129px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 인터넷창3 */
+#section03 .se03_xScroll .sec03_window05{
+    position: absolute;
+    right: 1909px;
+    top: 198px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 인터넷창3 아래 텍스트 */
+#section03 .se03_xScroll .sec03_text16{
+    position: absolute;
+    right: 1918px;
+    bottom: 193px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 두번째 사각 사진 */
+#section03 .se03_xScroll .sec03_photo02{
+    position: absolute;
+    right: 1313px;
+    top: 131px;
+}
+
+/* 핑크배경(가로시작) 두번째 사각 사진 옆 텍스트 */
+#section03 .se03_xScroll .sec03_text17{
+    position: absolute;
+    right: 1632px;
+    top: 281px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 별클립헤어핀 */
+#section03 .se03_xScroll .sec03_object27{
+    position: absolute;
+    right: 1137px;
+    top: 80px;
+    transform: translate(-1000px, -1000px);
+}
+
+/* 핑크배경(가로시작) 턱괴고 있는 메인인물 */
+#section03 .se03_xScroll .sec03_object28{
+    position: absolute;
+    right: 1066px;
+    bottom: 0px;
+}
+
+/* 핑크배경(가로시작) 턱괴고 있는 메인인물 - 말풍선1 */
+#section03 .se03_xScroll .sec03_message05{
+    position: absolute;
+    right: 1047px;
+    bottom: 529px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 턱괴고 있는 메인인물 - 말풍선2 */
+#section03 .se03_xScroll .sec03_message06{
+    position: absolute;
+    right: 803px;
+    bottom: 474px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 턱괴고 있는 메인인물 - 말풍선3 */
+#section03 .se03_xScroll .sec03_message07{
+    position: absolute;
+    right: 877px;
+    bottom: 418px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 맨오른쪽 VVV 로고 */
+#section03 .se03_xScroll .sec03_logo01{
+    position: absolute;
+    right: 105px;
+    top: 78px;
+    opacity: 0;
+}
+
+/* 핑크배경(가로시작) 맨오른쪽 로고 아래 검정 텍스트 */
+#section03 .se03_xScroll .sec03_text18{
+    position: absolute;
+    right: 104px;
+    top: 142px;
+    opacity: 0;
+}
+
+/* 핑크배경 (가로시작) 맨오른쪽 마지막 사각 사진 */
+#section03 .se03_xScroll .sec03_photo03{
+    position: absolute;
+    right: 391px;
+    bottom: 248px;
+}
+
+/* 핑크배경 (가로시작) 맨오른쪽 하트반지 */
+#section03 .se03_xScroll .sec03_object29{
+    position: absolute;
+    right: 555px;
+    bottom: 172px;
+    transform: translate(-1000px,500px);
+}
+
+/* 핑크배경 (가로시작) 맨오른쪽 마지막 메인인물 */
+#section03 .se03_xScroll .sec03_object30{
+    position: absolute;
+    right: 55px;
+    top: 295px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#section04{
+    height: 35000px;
+}
+
+#section04 .trigger_this_04{
+    height: 100%;
+}
+
+#section04 .fix_this_4{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#section04 .se04_yScroll{
+    width: 100vw;
+    height: 7016px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* sec04 세로시작 배경 이미지 */
+#section04 .se04_yScroll .sec04_bg01{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+}
+
+/* sec04 세로시작 첫번째 VVV 로고 */
+#section04 .se04_yScroll .sec04_logo01{
+    position: absolute;
+    top: 154px;
+    left: 46px;
+}
+
+/* sec04 세로시작 VVV 로고 아래 검정 택스트(왼쪽) */
+#section04 .se04_yScroll .sec04_text01{
+    position: absolute;
+    left: 44px;
+    top: 240px;
+}
+
+/* sec04 세로시작 초반 검정 텍스트(오른쪽) */
+#section04 .se04_yScroll .sec04_text02{
+    position: absolute;
+    right: 52px;
+    top: 323px;
+}
+
+/* sec04 세로시작 초반 사각사진1 */
+#section04 .se04_yScroll .sec04_photo01{
+    position: absolute;
+    top: 413px;
+    left: 766px;
+}
+
+/* sec04 세로시작 초반 이불 덮은 메인인물1 */
+#section04 .se04_yScroll .sec04_object01{
+    position: absolute;
+    left: 162px;
+    top: 570px;
+    transform: translateX(-1000px) ;
+}
+
+/* sec04 세로시작 중반 검정 텍스트(오른쪽) */
+#section04 .se04_yScroll .sec04_text03{
+    position: absolute;
+    right: 48px;
+    top: 1450px;
+    opacity: 0;
+}
+
+/* sec04 세로시작 중반 사각사진2 */
+#section04 .se04_yScroll .sec04_photo02{
+    position: absolute;
+    left: 142px;
+    top: 1618px;
+    opacity: 0;
+}
+
+/* 첫번째 인터넷창, 버튼 포함 범위 */
+#section04 .se04_yScroll .container01{
+    position: absolute;
+    top: 2015px;
+    left: 691px;
+}
+
+/* 첫번째 인터넷창, 샵버튼 */
+#section04 .se04_yScroll .container01 .sec04_b_container01{
+    position: absolute;
+    top: 132px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+#section04 .se04_yScroll .container01 .sec04_b_container01 .sec04_button01{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#section04 .se04_yScroll .container01 .sec04_b_container01 .sec04_button01_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+#section04 .se04_yScroll .container01 .sec04_b_container01:hover .sec04_button01_hover{
+    opacity: 1;
+}
+
+
+/* sec04 세로시작 사각사진3 */
+#section04 .se04_yScroll .sec04_photo03{
+    position: absolute;
+    top: 2728px;
+    right: 497px;
+    opacity: 0;
+}
+
+/* sec04 세로시작 사각사진3 아래 테이프1 */
+#section04 .se04_yScroll .sec04_tape01{
+    position: absolute;
+    top: 3985px;
+    left: -300px;
+    transform: rotate(27deg)
+}
+
+/* sec04 세로시작 사각사진3 아래 테이프1 -> 구동 위해 이미지 따로 잡기 */
+#section04 .se04_yScroll .sec04_tape01 img{
+    transform: translateX(-100%);
+}
+
+/* sec04 세로시작 사각사진3 아래 원형 텍스트 */
+#section04 .se04_yScroll .sec04_text05{
+    position: absolute;
+    top: 3951px;
+    left: 125px;
+}
+
+/* sec04 세로시작 사각사진4 */
+#section04 .se04_yScroll .sec04_photo04{
+    position: absolute;
+    top: 3553px;
+    left: 231px;
+    opacity: 0;
+}
+
+/* sec04 세로시작 사각사진4 위 클릭미 텍스트 */
+#section04 .se04_yScroll .sec04_text06{
+    position: absolute;
+    top: 3468px;
+    left: 719px;
+    opacity: 0;
+}
+
+/* sec04 세로시작 사각사진4 위 목걸이 */
+#section04 .se04_yScroll .sec04_object05{
+    position: absolute;
+    left: 470px;
+    top: 3782px;
+}
+#section04 .se04_yScroll .sec04_object05 .sec04_object05_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_yScroll .sec04_object05 .sec04_object05_hover{
+    width: 165px;
+    height: 126px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+#section04 .se04_yScroll .sec04_object05:hover .sec04_object05_hover{
+    opacity: 1;
+}
+
+
+/* sec04 세로시작 사각사진4 위 테이프2 */
+#section04 .se04_yScroll .sec04_tape02{
+    position: absolute;
+    top: 5620px;
+    left: -472px;
+    transform: rotate(-10deg)
+}
+
+/* sec04 세로시작 사각사진4 위 테이프2 -> 구동 위해 이미지 따로 잡기 */
+#section04 .se04_yScroll .sec04_tape02 img{
+    transform: translateX(+100%);
+}
+
+
+/* sec04 세로시작 사각사진5 */
+#section04 .se04_yScroll .sec04_photo05{
+    position: absolute;
+    top: 4788px;
+    left: 0px;
+    opacity: 0;
+}
+
+/* sec04 세로시작 사각사진5 위 VVV 흰색 로고 */
+#section04 .se04_yScroll .sec04_logo02{
+    position: absolute;
+    top: 4726px;
+    left: 23px;
+}
+
+/* sec04 세로시작 사각사진5 클릭미 - 체크 머리띠 + 스커트 세트 */
+#section04 .se04_yScroll .sec04_text07{
+    position: absolute;
+    top: 4701px;
+    left: 344px;
+    opacity: 0;
+}
+
+/* sec04 세로시작 사각사진5 체크 머리띠 + 스커트 세트 */
+#section04 .se04_yScroll .sec04_object07{
+    position: absolute;
+    left: 161px;
+    top: 4815px;
+    opacity: 0;
+}
+#section04 .se04_yScroll .sec04_object07 .sec04_object07_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_yScroll .sec04_object07 .sec04_object07_hover{
+    width: 296px;
+    height: 989px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+#section04 .se04_yScroll .sec04_object07:hover .sec04_object07_hover{
+    opacity: 1;
+}
+
+/* sec04 세로시작 중반 실버체인가방 */
+#section04 .se04_yScroll .sec04_object02{
+    position: absolute;
+    left: 988px;
+    top: 1915px;
+}
+#section04 .se04_yScroll .sec04_object02 .sec04_object02_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_yScroll .sec04_object02 .sec04_object02_hover{
+    width: 956px;
+    height: 886px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+#section04 .se04_yScroll .sec04_object02:hover .sec04_object02_hover{
+    opacity: 1;
+}
+
+/* sec04 세로시작 중반 실버헤어핀 */
+#section04 .se04_yScroll .sec04_object03{
+    position: absolute;
+    left: 147px;
+    top: 2418px;
+}
+#section04 .se04_yScroll .sec04_object03 .sec04_object03_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_yScroll .sec04_object03 .sec04_object03_hover{
+    width: 254px;
+    height: 252px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+#section04 .se04_yScroll .sec04_object03:hover .sec04_object03_hover{
+    opacity: 1;
+}
+
+/* sec04 세로시작 중반 화이트티셔츠 */
+#section04 .se04_yScroll .sec04_object04{
+    position: absolute;
+    left: 742px;
+    top: 3020px;
+}
+#section04 .se04_yScroll .sec04_object04 .sec04_object04_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_yScroll .sec04_object04 .sec04_object04_hover{
+    width: 317px;
+    height: 348px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+#section04 .se04_yScroll .sec04_object04:hover .sec04_object04_hover{
+    opacity: 1;
+}
+
+/* sec04 세로시작 중반 실버체인가방 - 클릭미 텍스트 */
+#section04 .se04_yScroll .sec04_text04{
+    position: absolute;
+    right: 402px;
+    top: 1906px;
+}
+
+/* 두번째 인터넷창, 버튼 포함 범위 - 헤어핀 */
+#section04 .se04_yScroll .container02{
+    position: absolute;
+    top: 2656px;
+    left: 334px;
+}
+
+/* 두번째 인터넷창, 샵버튼 */
+#section04 .se04_yScroll .container02 .sec04_b_container02{
+    position: absolute;
+    top: 132px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+#section04 .se04_yScroll .container02 .sec04_b_container02 .sec04_button02{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#section04 .se04_yScroll .container02 .sec04_b_container02 .sec04_button02_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+#section04 .se04_yScroll .container02 .sec04_b_container02:hover .sec04_button02_hover{
+    opacity: 1;
+}
+
+/* 세번째 인터넷창, 버튼 포함 범위 - 화이트티셔츠 */
+#section04 .se04_yScroll .container03{
+    position: absolute;
+    top: 2876px;
+    right: 307px;
+}
+
+/* 세번째 인터넷창, 샵버튼 */
+#section04 .se04_yScroll .container03 .sec04_b_container03{
+    position: absolute;
+    top: 132px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+#section04 .se04_yScroll .container03 .sec04_b_container03 .sec04_button03{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#section04 .se04_yScroll .container03 .sec04_b_container03 .sec04_button03_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_yScroll .container03 .sec04_b_container03:hover .sec04_button03_hover{
+    opacity: 1;
+}
+
+/* 네번째 인터넷창, 버튼 포함 범위 - 하트목걸이 */
+#section04 .se04_yScroll .container04{
+    position: absolute;
+    top: 3618px;
+    left: 827px;
+}
+
+/* 네번째 인터넷창, 샵버튼 */
+#section04 .se04_yScroll .container04 .sec04_b_container04{
+    position: absolute;
+    top: 132px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+#section04 .se04_yScroll .container04 .sec04_b_container04 .sec04_button04{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#section04 .se04_yScroll .container04 .sec04_b_container04 .sec04_button04_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_yScroll .container04 .sec04_b_container04:hover .sec04_button04_hover{
+    opacity: 1;
+}
+
+/* sec04 세로시작 중반 셀카찍는 메인인물 */
+#section04 .se04_yScroll .sec04_object06{
+    position: absolute;
+    top: 4066px;
+    right: 398px;
+}
+
+/* sec04 세로시작 중반 셀카 위 플래시1 */
+#section04 .se04_yScroll .sec04_flash01{
+    position: absolute;
+    top: 4313px;
+    left: 655px;
+}
+
+/* sec04 세로시작 중반 셀카 위쪽 손 플래시2 */
+#section04 .se04_yScroll .sec04_flash02{
+    position: absolute;
+    top: 3665px;
+    left: 1043px;
+}
+
+/* sec04 세로시작 중반 셀카 아래쪽 손 플래시3 */
+#section04 .se04_yScroll .sec04_flash03{
+    position: absolute;
+    top: 4251px;
+    left: 1080px;
+    opacity: 0;
+}
+
+/* sec04 세로시작 중반 사진 촬영하는 손1 */
+#section04 .se04_yScroll .sec04_hand01{
+    position: absolute;
+    top: 3838px;
+    right: -9px;
+}
+
+/* sec04 세로시작 중반 사진 촬영하는 손2 */
+#section04 .se04_yScroll .sec04_hand02{
+    position: absolute;
+    top: 4613px;
+    right: -38px;
+}
+
+/* 다섯번째 인터넷창, 버튼 포함 범위 - 체크 머리띠 + 스커트 세트 */
+#section04 .se04_yScroll .container05{
+    position: absolute;
+    top: 5059px;
+    left: 552px;
+}
+
+/* 다섯번째 인터넷창, 샵버튼 */
+#section04 .se04_yScroll .container05 .sec04_b_container05{
+    position: absolute;
+    top: 132px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+#section04 .se04_yScroll .container05 .sec04_b_container05 .sec04_button05{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#section04 .se04_yScroll .container05 .sec04_b_container05 .sec04_button05_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_yScroll .container05 .sec04_b_container05:hover .sec04_button05_hover{
+    opacity: 1;
+}
+
+/* sec04 세로시작 후반 테이프2 위 검정 텍스트 */
+#section04 .se04_yScroll .sec04_text08{
+    position: absolute;
+    top: 5380px;
+    right: 40px;
+    opacity: 0;
+}
+
+/* sec04 세로시작 후반 마지막 텍스트 1 */
+#section04 .se04_yScroll .sec04_text09{
+    position: absolute;
+    top: 6243px;
+    left: -464px;
+    transform: rotate(-7.2deg)
+}
+
+/* sec04 세로시작 후반 마지막 텍스트 1 -> 구동 위해 이미지 따로 잡기 */
+#section04 .se04_yScroll .sec04_text09 img{
+    transform: translateX(+50%);
+}
+
+/* sec04 세로시작 후반 마지막 텍스트 2 */
+#section04 .se04_yScroll .sec04_text10{
+    position: absolute;
+    top: 6392px;
+    left: -439px;
+    transform: rotate(-7.2deg)
+}
+
+/* sec04 세로시작 후반 마지막 텍스트 2 -> 구동 위해 이미지 따로 잡기 */
+#section04 .se04_yScroll .sec04_text10 img{
+    transform: translateX(-1000px);
+}
+
+/* sec04 세로시작 후반 마지막 텍스트 3 */
+#section04 .se04_yScroll .sec04_text11{
+    position: absolute;
+    top: 6610px;
+    left: -868px;
+    transform: rotate(-7.2deg)
+}
+
+/* sec04 세로시작 후반 마지막 텍스트 3 -> 구동 위해 이미지 따로 잡기 */
+#section04 .se04_yScroll .sec04_text11 img{
+    transform: translateX(+50%);
+}
+
+/* sec04 세로시작 후반 마지막 텍스트 위 검정 토끼 키링 */
+#section04 .se04_yScroll .sec04_object08{
+    position: absolute;
+    top: 5634px;
+    right: 67px;
+    transform: rotate(-3deg)
+}
+
+/* sec04 세로시작 후반 마지막 텍스트 위 검정 토끼 키링 -> 구동 위해 이미지 따로 잡기 */
+#section04 .se04_yScroll .sec04_object08 img{
+    transform: translateX(+500px);
+}
+
+
+
+
+
+
+
+/* ---------------------------------------------- */
+#section04 .se04_page_bottom{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100vh);
+    z-index: 10;
+}
+#section04 .se04_page_bottom .se04_b_page_box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+/* 첫번째 인터넷창, 버튼 포함 범위 */
+#section04 .se04_page_bottom .container01{
+    position: absolute;
+    top: 158px;
+    left: 852px;
+    opacity: 0;
+}
+
+/* 첫번째 인터넷창, 샵버튼 */
+#section04 .se04_page_bottom .container01 .sec04_monitor_button02{
+    position: absolute;
+    top: 244px;
+    left: 125px;
+}
+
+/* 모니터 안 배경화면(구형화) */
+#section04 .se04_page_bottom .sec04_monitor_bg01{
+    position: absolute;
+    top: 123px;
+    left: 684px;
+
+}
+
+/* 모니터 부분 뚫린 방 BG */
+#section04 .se04_page_bottom .sec04_bg01{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+#section04 .se04_page_bottom .se04_page02{
+    width: 1421px;
+    height: 980px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    opacity: 0;
+    pointer-events: none;
+
+}
+#section04 .se04_page_bottom .se04_page02 img{
+    transform: scale(0.4);
+}
+
+
+
+
+
+
+
+/* ---------------------------------------------- */
+#section04 .se04_end_page{
+    width: 11515px;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: -1;
+    transform: translateY(100vh);
+}
+
+/* 풀배경사진01 */
+#section04 .se04_end_page .sec04_bg03{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* 풀배경사진01 - 검정 세로 텍스트 */
+#section04 .se04_end_page .sec04_text12{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
+/* 풀배경사진01 - 무지개목걸이 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object09{
+    position: absolute;
+    left: 850px;
+    top: 665px;
+}
+#section04 .se04_end_page .sec04_object09 .sec04_object09_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_end_page .sec04_object09 .sec04_object09_hover{
+    width: 421px;
+    height: 308px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+#section04 .se04_end_page .sec04_object09:hover .sec04_object09_hover{
+    opacity: 1;
+}
+
+/* 풀배경사진01 - 무지개목걸이 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover01{
+    position: absolute;
+    left: 1142px;
+    top: 650px;
+}
+#section04 .se04_end_page .sec04_hover01 .sec04_hover01_upper{
+    position: absolute;
+    left: 0;
+    top: 101px;
+}
+#section04 .se04_end_page .sec04_hover01 .sec04_h_container01{
+    width: 455px;
+    height: 136px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom left;
+}
+
+#section04 .se04_end_page .sec04_hover01:hover .sec04_h_container01{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 풀배경사진01 - 무지개목걸이 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover01 .sec04_h_container01 .sec04_b_container06{
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover01 .sec04_h_container01 .sec04_b_container06 .sec04_button06{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover01 .sec04_h_container01 .sec04_b_container06 .sec04_button06_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_hover01 .sec04_h_container01 .sec04_b_container06 .sec04_button06_hover.on{
+    opacity: 1;
+}
+
+/* --------- */
+/* 풀배경사진02 */
+#section04 .se04_end_page .sec04_bg04{
+    position: absolute;
+    top: 0;
+    left: 1913px;
+}
+
+/* 풀배경사진02 - 검정 가로 텍스트 */
+#section04 .se04_end_page .sec04_text13{
+    position: absolute;
+    top: 59px;
+    left: 1943px;
+}
+
+/* 풀배경사진02 - 나비목걸이 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object10{
+    position: absolute;
+    left: 2448px;
+    top: 745px;
+}
+#section04 .se04_end_page .sec04_object10 .sec04_object10_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_end_page .sec04_object10 .sec04_object10_hover{
+    width: 184px;
+    height: 215px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+#section04 .se04_end_page .sec04_object10:hover .sec04_object10_hover{
+    opacity: 1;
+}
+
+/* 풀배경사진02 - 나비목걸이 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover02{
+    position: absolute;
+    left: 2532px;
+    top: 710px;
+}
+#section04 .se04_end_page .sec04_hover02 .sec04_hover02_upper{
+    position: absolute;
+    left: 0;
+    top: 123px;
+}
+#section04 .se04_end_page .sec04_hover02 .sec04_h_container02{
+    width: 458px;
+    height: 158px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom left;
+}
+
+#section04 .se04_end_page .sec04_hover02:hover .sec04_h_container02{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 풀배경사진02 - 나비목걸이 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover02 .sec04_h_container02 .sec04_b_container07{
+    position: absolute;
+    top: 98px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover02 .sec04_h_container02 .sec04_b_container07 .sec04_button07{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover02 .sec04_h_container02 .sec04_b_container07 .sec04_button07_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+#section04 .se04_end_page .sec04_hover02 .sec04_h_container02 .sec04_b_container07 .sec04_button07_hover.on{
+    opacity: 1;
+}
+
+/* 풀배경사진02 - 실버리본반지 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object11{
+    position: absolute;
+    left: 3212px;
+    top: 787px;
+}
+#section04 .se04_end_page .sec04_object11 .sec04_object11_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_end_page .sec04_object11 .sec04_object11_hover{
+    width: 124px;
+    height: 98px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_object11:hover .sec04_object11_hover{
+    opacity: 1;
+}
+
+/* 풀배경사진02 - 실버리본반지 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover03{
+    position: absolute;
+    left: 3265px;
+    top: 668px;
+}
+#section04 .se04_end_page .sec04_hover03 .sec04_hover03_upper{
+    position: absolute;
+    left: 0;
+    top: 101px;
+}
+#section04 .se04_end_page .sec04_hover03 .sec04_h_container03{
+    width: 355px;
+    height: 136px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom left;
+}
+
+#section04 .se04_end_page .sec04_hover03:hover .sec04_h_container03{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 풀배경사진02 - 실버리본반지 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover03 .sec04_h_container03 .sec04_b_container08{
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover03 .sec04_h_container03 .sec04_b_container08 .sec04_button08{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover03 .sec04_h_container03 .sec04_b_container08 .sec04_button08_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_hover03 .sec04_h_container03 .sec04_b_container08 .sec04_button08_hover.on{
+    opacity: 1;
+}
+
+/* 풀배경사진02 - 검정헤어밴드 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object12{
+    position: absolute;
+    left: 3033px;
+    top: 0px;
+}
+#section04 .se04_end_page .sec04_object12 .sec04_object12_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_end_page .sec04_object12 .sec04_object12_hover{
+    width: 594px;
+    height: 328px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_object12:hover .sec04_object12_hover{
+    opacity: 1;
+}
+
+/* 풀배경사진02 - 검정헤어밴드 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover04{
+    position: absolute;
+    left: 3485px;
+    top: 16px;
+}
+#section04 .se04_end_page .sec04_hover04 .sec04_hover04_upper{
+    position: absolute;
+    left: 0;
+    top: 101px;
+}
+#section04 .se04_end_page .sec04_hover04 .sec04_h_container04{
+    width: 355px;
+    height: 136px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom left;
+}
+
+#section04 .se04_end_page .sec04_hover04:hover .sec04_h_container04{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 풀배경사진02 - 검정헤어밴드 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover04 .sec04_h_container04 .sec04_b_container09{
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover04 .sec04_h_container04 .sec04_b_container09 .sec04_button09{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover04 .sec04_h_container04 .sec04_b_container09 .sec04_button09_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_hover04 .sec04_h_container04 .sec04_b_container09 .sec04_button09_hover.on{
+    opacity: 1;
+}
+
+/* --------- */
+/* 풀배경사진03 */
+#section04 .se04_end_page .sec04_bg05{
+    position: absolute;
+    top: 0;
+    left: 3856px;
+}
+
+/* 풀배경사진02 - 검정 가로 텍스트 */
+#section04 .se04_end_page .sec04_text14{
+    position: absolute;
+    top: 918px;
+    left: 4548px;
+}
+
+/* 중간에 흰색 빈공간 */
+#section04 .se04_end_page .sec04_white{
+    position: absolute;
+    top: 0;
+    left: 3833px;
+}
+
+/* 풀배경사진03 - 검정볼캡 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object13{
+    position: absolute;
+    left: 4267px;
+    top: 61px;
+}
+#section04 .se04_end_page .sec04_object13 .sec04_object13_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_end_page .sec04_object13 .sec04_object13_hover{
+    width: 175px;
+    height: 152px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_object13:hover .sec04_object13_hover{
+    opacity: 1;
+}
+
+/* 풀배경사진03 - 검정볼캡 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover05{
+    position: absolute;
+    left: 4393px;
+    top: 18px;
+}
+#section04 .se04_end_page .sec04_hover05 .sec04_hover05_upper{
+    position: absolute;
+    left: 0;
+    top: 101px;
+}
+#section04 .se04_end_page .sec04_hover05 .sec04_h_container05{
+    width: 240px;
+    height: 136px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom left;
+}
+
+#section04 .se04_end_page .sec04_hover05:hover .sec04_h_container05{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 풀배경사진03 - 검정볼캡 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover05 .sec04_h_container05 .sec04_b_container10{
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover05 .sec04_h_container05 .sec04_b_container10 .sec04_button10{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover05 .sec04_h_container05 .sec04_b_container10 .sec04_button10_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_hover05 .sec04_h_container05 .sec04_b_container10 .sec04_button10_hover.on{
+    opacity: 1;
+}
+
+/* 풀배경사진03 - 검정무스탕 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object14{
+    position: absolute;
+    left: 4089px;
+    top: 218px;
+}
+#section04 .se04_end_page .sec04_object14 .sec04_object14_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_end_page .sec04_object14 .sec04_object14_hover{
+    width: 541px;
+    height: 418px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_object14:hover .sec04_object14_hover{
+    opacity: 1;
+}
+
+/* 풀배경사진03 - 검정무스탕 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover06{
+    position: absolute;
+    left: 4554px;
+    top: 350px;
+}
+#section04 .se04_end_page .sec04_hover06 .sec04_hover06_upper{
+    position: absolute;
+    left: 0;
+    top: 101px;
+}
+#section04 .se04_end_page .sec04_hover06 .sec04_h_container06{
+    width: 434px;
+    height: 136px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom left;
+}
+
+#section04 .se04_end_page .sec04_hover06:hover .sec04_h_container06{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 풀배경사진03 - 검정무스탕 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover06 .sec04_h_container06 .sec04_b_container11{
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover06 .sec04_h_container06 .sec04_b_container11 .sec04_button11{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover06 .sec04_h_container06 .sec04_b_container11 .sec04_button11_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_hover06 .sec04_h_container06 .sec04_b_container11 .sec04_button11_hover.on{
+    opacity: 1;
+}
+
+/* 풀배경사진03 - 부츠귀걸이 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object15{
+    position: absolute;
+    left: 5464px;
+    top: 392px;
+}
+#section04 .se04_end_page .sec04_object15 .sec04_object15_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_end_page .sec04_object15 .sec04_object15_hover{
+    width: 85px;
+    height: 148px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_object15:hover .sec04_object15_hover{
+    opacity: 1;
+}
+
+/* 풀배경사진03 - 부츠귀걸이 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover07{
+    position: absolute;
+    left: 4916px;
+    top: 351px;
+}
+#section04 .se04_end_page .sec04_hover07 .sec04_hover07_upper{
+    position: absolute;
+    left: 513px;
+    top: 101px;
+}
+#section04 .se04_end_page .sec04_hover07 .sec04_h_container07{
+    width: 548px;
+    height: 136px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom right;
+}
+
+#section04 .se04_end_page .sec04_hover07:hover .sec04_h_container07{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 풀배경사진03 - 부츠귀걸이 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover07 .sec04_h_container07 .sec04_b_container12{
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover07 .sec04_h_container07 .sec04_b_container12 .sec04_button12{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover07 .sec04_h_container07 .sec04_b_container12 .sec04_button12_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_hover07 .sec04_h_container07 .sec04_b_container12 .sec04_button12_hover.on{
+    opacity: 1;
+}
+
+/* 풀배경사진03 - 십자가목걸이 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object16{
+    position: absolute;
+    left: 5160px;
+    top: 670px;
+}
+#section04 .se04_end_page .sec04_object16 .sec04_object16_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_end_page .sec04_object16 .sec04_object16_hover{
+    width: 431px;
+    height: 313px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_object16:hover .sec04_object16_hover{
+    opacity: 1;
+}
+
+/* 풀배경사진03 - 십자가목걸이 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover08{
+    position: absolute;
+    left: 5245px;
+    top: 724px;
+}
+#section04 .se04_end_page .sec04_hover08 .sec04_hover08_upper{
+    position: absolute;
+    left: 0;
+    top: 101px;
+}
+#section04 .se04_end_page .sec04_hover08 .sec04_h_container08{
+    width: 514px;
+    height: 136px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom left;
+}
+
+#section04 .se04_end_page .sec04_hover08:hover .sec04_h_container08{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 풀배경사진03 - 십자가목걸이 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover08 .sec04_h_container08 .sec04_b_container13{
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover08 .sec04_h_container08 .sec04_b_container13 .sec04_button13{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover08 .sec04_h_container08 .sec04_b_container13 .sec04_button13_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_hover08 .sec04_h_container08 .sec04_b_container13 .sec04_button13_hover.on{
+    opacity: 1;
+}
+
+/* --------- */
+/* 풀배경사진04 */
+#section04 .se04_end_page .sec04_bg06{
+    position: absolute;
+    top: 0;
+    left: 5757px;
+}
+
+/* 풀배경사진04 - 핑크 세로 텍스트 */
+#section04 .se04_end_page .sec04_text15{
+    position: absolute;
+    top: 329px;
+    left: 5845px;
+}
+
+/* 풀배경사진04 - 핑크 가로 텍스트 */
+#section04 .se04_end_page .sec04_text16{
+    position: absolute;
+    top: 50px;
+    left: 7349px;
+}
+
+/* 풀배경사진04 - 핑크리본핀 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object17{
+    position: absolute;
+    left: 6229px;
+    top: 61px;
+}
+#section04 .se04_end_page .sec04_object17 .sec04_object17_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_end_page .sec04_object17 .sec04_object17_hover{
+    width: 567px;
+    height: 320px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_object17:hover .sec04_object17_hover{
+    opacity: 1;
+}
+
+/* 풀배경사진04 - 핑크리본핀 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover09{
+    position: absolute;
+    left: 5786px;
+    top: 87px;
+}
+#section04 .se04_end_page .sec04_hover09 .sec04_hover09_upper{
+    position: absolute;
+    left: 492px;
+    top: 101px;
+}
+#section04 .se04_end_page .sec04_hover09 .sec04_h_container09{
+    width: 527px;
+    height: 136px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom right;
+}
+
+#section04 .se04_end_page .sec04_hover09:hover .sec04_h_container09{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 풀배경사진04 - 핑크리본핀 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover09 .sec04_h_container09 .sec04_b_container14{
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover09 .sec04_h_container09 .sec04_b_container14 .sec04_button14{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover09 .sec04_h_container09 .sec04_b_container14 .sec04_button14_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_hover09 .sec04_h_container09 .sec04_b_container14 .sec04_button14_hover.on{
+    opacity: 1;
+}
+
+/* 풀배경사진04 - 리본나비반지 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object18{
+    position: absolute;
+    left: 6455px;
+    top: 801px;
+}
+#section04 .se04_end_page .sec04_object18 .sec04_object18_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_end_page .sec04_object18 .sec04_object18_hover{
+    width: 126px;
+    height: 100px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_object18:hover .sec04_object18_hover{
+    opacity: 1;
+}
+
+/* 풀배경사진04 - 리본나비반지 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover10{
+    position: absolute;
+    left: 6532px;
+    top: 687px;
+}
+#section04 .se04_end_page .sec04_hover10 .sec04_hover10_upper{
+    position: absolute;
+    left: 0;
+    top: 101px;
+}
+#section04 .se04_end_page .sec04_hover10 .sec04_h_container10{
+    width: 407px;
+    height: 136px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom left;
+}
+
+#section04 .se04_end_page .sec04_hover10:hover .sec04_h_container10{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 풀배경사진04 - 리본나비반지 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover10 .sec04_h_container10 .sec04_b_container15{
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover10 .sec04_h_container10 .sec04_b_container15 .sec04_button15{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover10 .sec04_h_container10 .sec04_b_container15 .sec04_button15_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_hover10 .sec04_h_container10 .sec04_b_container15 .sec04_button15_hover.on{
+    opacity: 1;
+}
+
+/* 풀배경사진04 - 핸드폰케이스 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object19{
+    position: absolute;
+    left: 7079px;
+    top: 430px;
+}
+#section04 .se04_end_page .sec04_object19 .sec04_object19_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .se04_end_page .sec04_object19 .sec04_object19_hover{
+    width: 397px;
+    height: 430px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_object19:hover .sec04_object19_hover{
+    opacity: 1;
+}
+
+/* 풀배경사진04 - 핸드폰케이스 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover11{
+    position: absolute;
+    left: 7229px;
+    top: 534px;
+}
+#section04 .se04_end_page .sec04_hover11 .sec04_hover11_upper{
+    position: absolute;
+    left: 0;
+    top: 101px;
+}
+#section04 .se04_end_page .sec04_hover11 .sec04_h_container11{
+    width: 438px;
+    height: 136px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom left;
+}
+
+#section04 .se04_end_page .sec04_hover11:hover .sec04_h_container11{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 풀배경사진04 - 핸드폰케이스 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover11 .sec04_h_container11 .sec04_b_container16{
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    margin-left: -57px;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover11 .sec04_h_container11 .sec04_b_container16 .sec04_button16{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover11 .sec04_h_container11 .sec04_b_container16 .sec04_button16_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04 .se04_end_page .sec04_hover11 .sec04_h_container11 .sec04_b_container16 .sec04_button16_hover.on{
+    opacity: 1;
+}
+
+/* --------- */
+/* 풀배경사진05 */
+#section04 .se04_end_page .sec04_bg07{
+    position: absolute;
+    top: 0;
+    left: 7674px;
+    z-index: 10;
+}
+
+/* 풀배경사진05 - 진주목걸이 -> 호버시 외부광선*/
+#section04 .se04_end_page .sec04_object20{
+    position: absolute;
+    left: 8496px;
+    top: 701px;
+    z-index: 10;
+}
+#section04 .se04_end_page .sec04_object20 .sec04_object20_upper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+#section04 .se04_end_page .sec04_object20 .sec04_object20_hover{
+    width: 572px;
+    height: 303px;
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 10;
+}
+
+#section04 .se04_end_page .sec04_object20:hover .sec04_object20_hover{
+    opacity: 1;
+    z-index: 10;
+}
+
+/* 풀배경사진04 - 진주목걸이 호버동그라미 호버(전) -> 호버(후) */
+#section04 .se04_end_page .sec04_hover12{
+    position: absolute;
+    left: 8933px;
+    top: 728px;
+    z-index: 10;
+}
+#section04 .se04_end_page .sec04_hover12 .sec04_hover12_upper{
+    position: absolute;
+    left: 0;
+    top: 123px;
+    z-index: 10;
+}
+#section04 .se04_end_page .sec04_hover12 .sec04_h_container12{
+    width: 458px;
+    height: 158px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: bottom left;
+    z-index: 10;
+}
+
+#section04 .se04_end_page .sec04_hover12:hover .sec04_h_container12{
+    opacity: 1;
+    transform: scale(1);
+    z-index: 10;
+}
+
+/* 풀배경사진04 - 진주목걸이 호버(전) -> 호버(후) */
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover12 .sec04_h_container12 .sec04_b_container17{
+    position: absolute;
+    top: 98px;
+    left: 50%;
+    margin-left: -57px;
+    z-index: 10;
+}
+
+/* 샵버튼 */
+#section04 .se04_end_page .sec04_hover12 .sec04_h_container12 .sec04_b_container17 .sec04_button17{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+/* 샵버튼(호버) - 핑크 */
+#section04 .se04_end_page .sec04_hover12 .sec04_h_container12 .sec04_b_container17 .sec04_button17_hover{
+    width: 114px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 10;
+}
+
+#section04 .se04_end_page .sec04_hover12 .sec04_h_container12 .sec04_b_container17 .sec04_button17_hover.on{
+    opacity: 1;
+    z-index: 10;
+}
+
+/* --------- */
+/* 마지막 배경 */
+#section04 .se04_end_page .sec04_bg08{
+    position: absolute;
+    top: 0;
+    left: 9594px;
+}
+
+/* 마지막 배경 - 맨 위 검정 VVV 로고 */
+#section04 .se04_end_page .sec04_logo03{
+    position: absolute;
+    top: 60px;
+    left: 9639px;
+    opacity: 0;
+}
+
+/* 마지막 배경 - 왼쪽 검정 텍스트 1 */
+#section04 .se04_end_page .sec04_text17{
+    position: absolute;
+    top: 139px;
+    left: 9639px;
+    opacity: 0;
+}
+
+/* 마지막 배경 - 왼쪽 검정 텍스트 2 */
+#section04 .se04_end_page .sec04_text18{
+    position: absolute;
+    top: 252px;
+    left: 9639px;
+    opacity: 0;
+}
+
+/* 마지막 배경 - 왼쪽 검정 텍스트 3 */
+#section04 .se04_end_page .sec04_text19{
+    position: absolute;
+    top: 326px;
+    left: 9639px;
+    opacity: 0;
+}
+
+/* 마지막 배경 - 오른쪽 핑크 텍스트 */
+#section04 .se04_end_page .sec04_text20{
+    position: absolute;
+    top: 167px;
+    left: 11019px;
+    opacity: 0;
+}
+
+#section04 .se04_end_page .sec04_bg08_crop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 15;
+}
+
+/* 마지막 배경 - 오른쪽 핑크 모니터 */
+#section04 .se04_end_page .sec04_object21{
+    position: absolute;
+    top: 209px;
+    left: 10452px;
+    z-index: 20;
+}
+
+/* 마지막 배경 - 왼쪽 진주목걸이 */
+#section04 .se04_end_page .sec04_object22{
+    position: absolute;
+    top: 552px;
+    left: 9953px;
+    z-index: 20;
+    transform: translateY(1000px);
+}
+
+/* 마지막 배경 - 왼쪽 핑크나비목걸이 */
+#section04 .se04_end_page .sec04_object23{
+    position: absolute;
+    top: 606px;
+    left: 10010px;
+    z-index: 20;
+    transform: translateY(1000px);
+}
+
+/* 마지막 배경 - 모니터 위 발레리나 키링 */
+#section04 .se04_end_page .sec04_object24{
+    position: absolute;
+    top: 203px;
+    left: 10211px;
+    transform-origin: top right;
+    z-index: 20;
+}
+
+/* 마지막 배경 - 모니터 오른쪽 화이트숄더백 */
+#section04 .se04_end_page .sec04_object25{
+    position: absolute;
+    top: 318px;
+    left: 11071px;
+    z-index: 20;
+    transform: translateX(1000px);
+}
+
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin*/
+
+
+
+
+
+
+
+
+
+
+
+
